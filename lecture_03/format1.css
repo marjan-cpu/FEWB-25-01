@@ -1,0 +1,15 @@
+/* format1.css */
+body {
+    background-color: white;
+    color: #000099;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  a {
+    background-color: #CCCCCC;
+  }
+  
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: red;
+  }
