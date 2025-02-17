@@ -41,3 +41,20 @@ function factorial() {
     //}
     //output += j + '! = ' + factorial + ', ';
     output += j + '! = ' + fac(j) + ', ';
+
+    // Sum of First N Odd Integers
+    const sumOddIntegers = (n) => {
+        let sum = 0;
+        let count = 0;
+        let num = 1;
+
+        while (count < n) {
+          sum += num;
+          num += 2;
+          count++;
+        }
+
+        console.log(`The sum of the first ${N} odd integers:`, sum);
+        };
+
+        sumOddIntegers(4);
