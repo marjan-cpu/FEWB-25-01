@@ -6,8 +6,8 @@
   numberOfStars = prompt("Enter the number of stars?");
 
  // loop
-  for (let i=0; i < numberOfStars; i++ ) {
-    outputStars += "*";
+  for(let i=0; i < numberOfStars; i++ ) {
+    outputStars += "?";
  }
  
  // output 

@@ -17,3 +17,11 @@ body {
     color: rgb(123, 255, 0);
     font-style: italic;
   }
+  .news {
+    border-style: solid;
+    border-width: 2px; /* 5px top and bottom, 20px on the sides */
+    border-color: green;
+    border-radius: 1px 1px 1px 20px;
+    height: 100px;
+    padding: 20px;
+  }
