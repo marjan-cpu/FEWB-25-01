@@ -66,3 +66,12 @@ const sumOddIntegers = (N) => {
   
   // Run the main program
   main();
+
+    // Write a function that takes a string as input and returns the longest word in the string.
+  const longestWord = (str) => str.split(' ').reduce((longest, word) => word.length > longest.length ? word : longest, "");
+  console.log(longestWord("JavaScript is an awesome language")); // "JavaScript"
+
+  const areAnagrams = (str1, str2) => {
+    return str1.split('').sort().join('') === str2.split('').sort().join('');
+  };
+  console.log(areAnagrams("listen", "silent")); // true
